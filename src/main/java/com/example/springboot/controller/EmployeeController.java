@@ -20,7 +20,7 @@ import com.example.springboot.exception.ResourceNotFoundException;
 import com.example.springboot.model.Employee;
 import com.example.springboot.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000")// sau này gặp cái lỗi cros khi deploy thì fix ở đây
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
