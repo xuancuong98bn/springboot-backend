@@ -3,11 +3,9 @@ package com.example.demo;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class SpringbootBackendApplicationTests {
+import com.example.springboot.controller.EmployeeController;
 
-	@Test
-	void contextLoads() {
-	}
+@SpringBootTest(classes = EmployeeController.class)
+class SpringbootBackendApplicationTests {
 
 }
